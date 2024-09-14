@@ -1,38 +1,38 @@
 <?php
 #arreglos y como llenarlo dinamicamente
 
-//$notas = array();
-//$cantidadnotas = readline("Ingresa la cantidad de notas: ");
-//$i = 0;
-//while($i < $cantidadnotas){
-  //  $nota = readline("Ingresa la nota: ");
-    //array_push($notas,$nota);
-    //$i++;
-//}
-//print_r($notas);
+$notas = array();
+$cantidadnotas = readline("Ingresa la cantidad de notas: ");
+$i = 0;
+while($i < $cantidadnotas){
+    $nota = readline("Ingresa la nota: ");
+    array_push($notas,$nota);
+    $i++;
+}
+print_r($notas);
 
-/*for($i = 0; $i < $cantidadnotas; $i++){
+for($i = 0; $i < $cantidadnotas; $i++){
     $nota = readline("Ingrese la nota: ");
     array_push($notas,$nota);
 }
-print_r($notas);*/
+print_r($notas);
 
-/*$nombres = array();
+$nombres = array();
 $cantidadnombres = readline("Ingrese la cantidad de personas requerida: ");
  
 for($i = 0; $i < $cantidadnombres; $i++){
     $nombre = readline("Ingrese el nombre: ");
     array_push($nombres,$nombre);
 }
-print_r($nombres);*/
+print_r($nombres);
 
 #Recorrer el arreglo para imprimir -------------------------------------------------------------------------------------------
 
-/*for($j = 0; $j < count($notas); $j++){
+for($j = 0; $j < count($notas); $j++){
 
-}*/
+}
 
-/*$notas = array();
+$notas = array();
 $cantidadnotas = readline("Ingresa la cantidad de notas: ");
 
 for($i = 0; $i < $cantidadnotas; $i++){
@@ -45,7 +45,7 @@ for($j = 0; $j < count($notas); $j++){
 }
 echo "La suma de las notas es: " . $acumu . "\n";
 echo "El promedio de las notas es: " . $acumu / $cantidadnotas . "\n";
----------------------------------------------------------------------------------------------------------------------------------------------------*/
+#---------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 $nombres = array();
